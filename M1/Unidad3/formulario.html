@@ -1,0 +1,68 @@
+<form action="" method="">
+    <p>
+        <label for="nom">Nombre</label><br>
+        <input type="text" name="Nombre" placeholder="Escribe tu nombre">
+    </p>
+    <p>
+        <label for="apell">Apellido</label><br>
+        <input type="text" name="Apellido" placeholder="Escribe tu apellido">
+    </p>
+    <p>
+        <label for="dni">Dni</label><br>
+        <input type="number" name="dni" placeholder="Escribe tu dni">
+    </p>
+    <p>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" placeholder="Escribe tu email">
+    </p>
+    <p>
+        <label for="pass">Contraseña</label><br>
+        <input type="password" name="pass" placeholder="Escribe tu contraseña">
+    </p>
+   
+    <label for="sexo">Sexo</label>
+    <ul>
+        <li>
+            <input type="radio" name="sexo">Femenino
+        </li>
+        <li>
+            <input type="radio" name="sexo">Masculino
+        </li>
+    </ul>
+    <labe>Pasatiempo</label>
+        <ul>
+            <li>
+                <input type="checkbox" name="Pasatiempo[]" value="Escribir" id="Escribir">
+                <label for="Escribir">Escribir</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Pasatiempo[]" value="Leer" id="Leer">
+                <label for="Leer">Leer</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Pasatiempo[]" value="Dibujar" id="Dibujar">
+                <label for="Dibujar">Dibujar</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Pasatiempo[]" value="Pintar" id="Pintar">
+                <label for="Pintar">Pintar</label>
+            </li>
+        </ul>
+ <p>
+     <label for="Titulo">Titulo</label>
+     <select name="Titulo" >
+        <option value="Primario">Primario</option>
+        <option value="Secundario">Secundario</option>
+        <option value="Terciario">Terciario</option>
+        <option value="Universitario">Universitario</option>
+     </select>
+</p>
+<p>
+    <label for="Comentarios">Comentarios</label>
+    <textarea name="Comentarios"  cols="30" rows="10"></textarea>
+</p>
+<p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+</p>
+</form>

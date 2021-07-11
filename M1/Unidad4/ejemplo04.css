@@ -1,0 +1,32 @@
+p{
+    color: green;
+    font-style: italic;
+    font-weight: 800;
+}
+
+h1{
+    color: blue;
+    text-transform: uppercase;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+.prueba{
+    color: red;
+    font-size: 19px;
+}
+
+#rojo{
+    width: 300px;/*ancho*/
+    height: 300px;/*alto*/
+    background-color: red;
+}
+#azul{
+    width: 300px;/*ancho*/
+    height: 300px;/*alto*/
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
