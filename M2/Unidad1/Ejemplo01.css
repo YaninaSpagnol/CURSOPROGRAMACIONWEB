@@ -1,0 +1,31 @@
+.rojo{
+    width: 200px; /*ancho*/
+    height: 200px; /*alto*/
+    color: white;
+    background: red; /*poner color al fondo*/
+    margin-bottom: 50px; /*lo que quiera separar*/
+    /*margin-left: 20px;*/ /*poner el cuadro mas a la izquierda*/
+    padding: 20px; /*o el valor que quiera*/ 
+    /*padding-top: 20px;*/ /*separar solo arriba*/
+    /*padding: 5px 10px 15px 20px;*/ /*arriba, der, abajo, izq, (reloj)*/
+    /*padding: 5px 20px 100px; *//*arriba,laterales,abajo*/
+    /*padding: 10px 20px;*/ /*eje y - eje x*/ /*y=arriba y abajo x=laterales*/
+    /*margin: 0 auto; black;*//* ancho de borde opcion y color*/ 
+    /*border: 5px dashed black;*//*cambiamos opcion de borde*/  
+    box-sizing: border-box;/*alinea todos los cuadros*/
+
+}
+
+.azul{
+    width: 200px;
+    height: 200px;
+    background: blue; 
+    /*margin-top: 50px;*/ /*se usa en uno o el otro cuadro*/
+    padding: 20px;
+    color: white;
+    border-radius: 20px;/*borde redondeado*//*como padding= puedo poner valor que quiera*/
+    /*border-radius: 0 20px;*//*o al revez*/
+    box-shadow: 15px 10px 5px green;/*colocar sombra*/ /*eje x, eje y, difuminado, color*/
+    /*box-shadow: inset 15px 10px 5px green;*//*cambiar lado de la sombra*/
+    box-sizing: border-box;
+}

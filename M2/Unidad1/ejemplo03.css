@@ -1,0 +1,22 @@
+/*font-family: 'Qahiri', sans-serif;
+font-family: 'Uchen', serif;
+font-family: 'Zen Tokyo Zoo', cursive;*/
+
+h1{
+    font-family: 'Zen Tokyo Zoo', cursive;
+    color: blue;
+    font-size: 70px;
+    text-align: center;/*centrar titulo*/
+
+}
+
+h2{
+    color: red;
+    font-family: 'Qahiri', sans-serif;
+    font-size: 50px;
+}
+
+p{
+    font-family: 'Uchen', serif;
+    color: black;
+}
