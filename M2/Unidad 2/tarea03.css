@@ -1,0 +1,49 @@
+.contenedor{
+width: 95%;
+height: 150px;
+border: 1px solid black;
+background-color: white;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+justify-content: space-between;
+padding-left: 0%;
+
+
+
+}
+
+.aqua{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #00D2F7;
+    background-color: #00F9F9;
+    flex: 0 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rosa{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #F70083;
+    background-color: #F4559F;
+    flex: 0 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amarillo{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #EFDF00;
+    background-color: #EDE271;
+    flex: 0 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
