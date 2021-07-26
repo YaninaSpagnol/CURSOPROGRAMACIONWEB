@@ -1,0 +1,41 @@
+#contenedor{
+	border:1px solid #aaa;
+	background-color: #dddddd;
+	margin:0 auto;
+	width: 60%;
+	height: 500px;
+	margin-top: 20px;
+	
+
+}
+
+#verde{
+	/* position:static; */
+	margin: 0 auto;
+	width:90%;
+	height: 20%;
+	border:1px solid #80BC3A;
+	background-color: #98E53E;
+	margin-top: 20px;
+	margin-bottom:20px; 
+}
+
+
+#celeste{
+	background-color: rgb(123, 211, 240);
+    border: 1px solid rgb(43, 142, 175);
+    width: 90%;
+    height:  20%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+	/* position: static; */
+} 
+#rojo{
+    background-color: red;
+    border: 1px solid rgb(73, 13, 13);
+    width: 90%;
+    height:  20%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+	/* position: static; */
+} 

@@ -1,0 +1,18 @@
+.contenedor{
+    background-color: #F70073;
+    display: inline-flex; /*el cuadro rosa se adapta a mis items */
+    /*flex-wrap: nowrap; *//*por defecto*/
+    /*flex-wrap: wrap; *//*de manera ordenada en pantalla,en lineas*/
+    flex-wrap: wrap-reverse; /*ordenado de derecha a izquierda*/
+    
+
+
+}
+
+.item{
+    background-color:plum;
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    font-size: 30px;
+}

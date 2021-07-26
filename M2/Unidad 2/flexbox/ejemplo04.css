@@ -1,0 +1,19 @@
+.contenedor{
+    background-color: #F70073;
+    display: inline-flex; /*el cuadro rosa se adapta a mis items */
+    /*justify-content: flex-start;*/ /*los items se distribuyen desde el principio*/
+    /*justify-content: flex-end;/*se distribuyen al final de la linea*/
+    /*justify-content: center;*//*se sentran a lo largo de la linea*/
+    /*justify-content: space-between; *//*los elementos se distribuyen unifirmemente*/
+    /*justify-content: space-around;*//*los elementos se distribuyen unifirmemente con igual espacio*/
+    justify-content: space-evenly; /*se distribuyen para que el espacio entre cada uno y los bordes sean igual*/
+}
+
+.item{
+    background-color:plum;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+}

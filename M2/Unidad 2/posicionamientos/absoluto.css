@@ -1,0 +1,41 @@
+#contenedor{
+    border: 1px solid #7A7A7C;
+    background-color: #D2D2D8;
+    width: 60%;
+    height: 500px;
+    margin: 0 auto;
+    /* padding: 10px; */
+
+}
+
+#verde{
+    position: absolute;
+    border: 1px solid #005412;
+    background-color: green;
+    width: 90%;
+    height: 20%;
+    top: 0%;
+    left: 0%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    /* margin-top: 20px; */
+
+}
+
+#celeste{
+    border: 1px solid #008DD3;
+    background-color: #329ED1;
+    width: 90%;
+    height: 20%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#amarillo{
+    border: 1px solid #CCC100;
+    background-color: #DBE050;
+    width: 90%;
+    height: 20%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}

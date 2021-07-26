@@ -1,0 +1,43 @@
+#contenedor{
+    border: 1px solid #7A7A7C;
+    background-color:#D2D2D8 ;
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#amarillo{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border: 1px solid #FEBF01;
+    background-color:#FCDB76 ;
+    width: 90%;
+    height: 20%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+#verde{
+    position: static;
+    border: 1px solid #005B1E;
+    background-color: green;
+    width: 90%;
+    height: 20%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#rosa{
+    position: static;
+    border: 1px solid #FC0058;
+    background-color: #F94581;
+    width: 90%;
+    height: 20%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,20 @@
+body{
+    margin: 0px
+}
+
+#texto{
+    background-color: hotpink;
+    margin-top: 4.9%;
+    column-count: 4;
+    column-gap: 50px;
+    column-rule: 1px solid black;
+    padding: 20px
+
+}
+#fijo{
+    position: fixed;
+    top:0%;
+	background-color: #CCCCCC;
+	height:60px;
+	width: 100%; /* lo damos formas de botonera*/
+}

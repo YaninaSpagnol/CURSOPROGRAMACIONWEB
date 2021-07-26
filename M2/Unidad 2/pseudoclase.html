@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pseudoclase.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pseudo-clase /Pseudo-lementos</h1>
+   
+    <h2>Pseudo-clase</h2>
+    
+    <p>Palabra clave que se añade a lso selectores y que especifica un estado especial del elemento seleccionado. Por ejemplo :hover aplicara un estilo cuando el usuario ponga el mause sobre el elemento especificado por el selector</p>
+    
+    <h2>estructura</h2>
+    <div class="caja">
+        <p>selector:pseudoclase { propiedad: valor; }</p> 
+        <ul>
+            <li>
+                :first-child selecciona el primer elemento entre un grupo de elementos hermanos
+            </li>
+            <li>
+                :last-child selecciona el ultimo elemento entre un grupo de elementos hermano
+            </li>
+            <li>
+                :nth-child() selecciona elementos basandose en la posicion de los hijos.  Puede utilizar numeros expresiones y las palabras even y odd (par e impar respectivamente)
+            </li>
+        </ul>
+    </div>
+    <hr>
+    <h2>Pseudo-elementos</h2>
+    <p>Se añaden a los selectores, pero en cambio, no describen un estado especial sino que, permiten añadir estilos a una parte concreta del documento. Por ejemplo, el pseudoelemento ::first-line selecciona solo la priemera linea del elemento especificado pi¿or el selector.</p>
+    <h2>estructura</h2>
+    <div class="caja2">
+    <p>selector::pseudo-elemento { propiedad: valor }</p>
+    <ul>
+        <li>
+            ::after crea un pseudo-elemento que es el ultimo hijo del elemento seleccionado. Es comunmente usado para añadir contenido cosmetico a un elemento con la propiedad content. Es en linea (inline) de forma predeterminada.
+        </li>
+        <li>
+            ::before crea un pseudo-elemento que es el primer hijo del elemento seleccionado. Es usado normalmente para añadir contenido estetico a un elemento, usando la propiedad content. Este elemento se muestra en linea con el texto de forma predeterminada. 
+        </li>
+        <li>
+            ::first-line aplica estilos a la primera linea de un elemento de bloque. Nótese que la longitud en la primera linea depende de muchos factores, incluyendo el ancho del elemento, el ancho del documento y el tamaño de fuente del texto.
+        </li>
+        <li>
+            ::placeholder representa al texto provisional en un elemento input o un elemento textarea.
+        </li>
+    </ul>
+</div>
+    <span>boton</span>
+
+</body>
+</html>

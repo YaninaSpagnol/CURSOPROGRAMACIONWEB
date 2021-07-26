@@ -1,0 +1,18 @@
+.contenedor{
+    background-color: #F70073;
+    display: inline-flex; /*el cuadro rosa se adapta a mis items */
+    /*flex-direction: row; *//* por defecto*/
+    /*flex-direction: row-reverse;*//*alineado de atras hacia adelante*/
+    /*flex-direction: column;*/ /*se ve en columna*/
+    flex-direction: column-reverse; /*se ve en columna invertida*/
+
+
+}
+
+.item{
+    background-color:plum;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 30px;
+}

@@ -1,0 +1,13 @@
+.contenedor{
+    background-color: #F70073;
+    /*display: inline-flex;*/ /*el cuadro rosa se adapta a mis items */
+    display: flex; /* el cuadro rosa cubre todo el ancho de la pagina */
+}
+
+.item{
+    background-color:plum;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 30px;
+}
