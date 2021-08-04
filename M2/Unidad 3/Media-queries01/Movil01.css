@@ -1,0 +1,35 @@
+/* CSS document */
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.contenedor{
+    background: #9B9B9B;
+    width: 100%;
+}
+
+nav{
+    background: #F94886;
+    float: none;
+    width: 100%;
+}
+
+nav ul{
+    margin: 0;
+
+}
+
+nav ul li a{
+    padding: 0.5em;
+    display: block;
+    color: black;
+}
+
+.contenido{
+    border-top: 1px solid black;
+    float: none;
+    padding: 0.9em;
+    width: 100%;
+    margin: 0;
+}
