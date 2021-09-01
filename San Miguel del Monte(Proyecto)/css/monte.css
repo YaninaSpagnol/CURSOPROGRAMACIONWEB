@@ -64,10 +64,10 @@ nav ul li a.activo{
     background-color: #A82121;
 }
 
-.holder{
+/* .holder{
     width: 960px;
     margin: 0 auto;
-}
+} */
 /*inicio home*/
 
 h2{
@@ -174,3 +174,115 @@ iframe{
 }
 /*fin ubicacion*/
 
+
+
+@media screen and (min-width:230px) and (max-width:768px){
+
+    body{
+        max-width: 100%;
+        font-size: 10px;   
+    }
+
+    main{
+        margin-left: 2.5em;
+    }
+    
+    header{
+        padding:0;
+    }
+    
+    header h1{
+        font-size: 1.8em;
+        bottom: 1.5em;
+    }
+    
+    nav{
+        margin-bottom: 2em;
+    }
+    
+    nav ul li{
+        width: 13%;
+    }
+    
+    nav ul li a{
+        padding: 5px 0;
+    }
+
+    h2{
+        padding: 1em;
+    }
+
+    p{
+        font-size: 13px;
+        
+        padding: 1em ;
+    }
+    
+    .homeimg{
+        margin-bottom: 1.5em;
+       
+    }
+
+    .homeimg img{
+        max-width: 100%;
+    }
+    
+    .right{
+        float: none;
+        margin-left: 2em;
+    }
+    
+    .columna{
+        padding: 0;
+        margin: 0;
+    }
+
+    .columna.right{
+        float: right;
+        width: 55%;
+    }
+
+    .columna.left{
+        width: 45%;
+    }
+    .columna.right p{
+        font-size: 15px;
+    }
+    
+    .columna ul li{
+        font-size: 12px;
+    }
+    
+    .formulario label{
+        display: block;
+        padding:0;
+    }
+    .formulario input,
+    .formulario textarea{
+        padding: 0.3em;
+        font-size: 12px;
+        width: 90%;
+        margin-left: 0;
+    }
+    
+    .formulario textarea{
+        height: 8em;
+    }
+    
+    hr{
+        margin-top: 4em;
+    }
+
+    h3{
+        font-size: 19px;
+    }
+}
+
+@media {
+    
+    main{
+        max-width: 960px;
+        margin: 0 auto;
+        padding: auto;
+    }
+}
