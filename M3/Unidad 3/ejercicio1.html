@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ej1.css">
+</head>
+
+<body>
+
+    <h1>Ejercicio 1</h1>
+    <p>
+        <script>
+            var distancia = 0;
+            var medio = "";
+            distancia = prompt('ingrese la distancia a recorrer en metros');
+            if (distancia <= 1000) {
+                medio = "a <span>PIE</span>";
+            } else if (distancia < 10000) {
+                medio = "la <span>BICICLETA</span>";
+            } else if (distancia < 30000) {
+                medio = "el <span>COLECTIVO</span>";
+            } else if (distancia < 100000) {
+                medio = "el <span>AUTO</span>";
+            } else if (distancia > 100001) {
+                medio = "el <span>AVION/span>";
+            }
+            document.write('El medio de transporte mas apropiado para recorrer esa distancia es ' + medio);
+        </script>
+    </p>
+
+</body>
+
+</html>

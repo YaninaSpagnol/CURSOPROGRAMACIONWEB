@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    color: black;
+    text-decoration:underline #F40055;
+    margin-top: 2em;
+    font-size: 3em;
+}
+
+p{
+    font-size: 1.5em;
+    border: 1px solid #F40055 ;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #C9C7C5;
+}
+
+span{
+    color: #F40055;
+    font-family:fantasy ;
+}
