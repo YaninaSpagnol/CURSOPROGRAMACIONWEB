@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+.contenedor{
+    text-align: center;
+    font-size: 2em;
+    
+}
+
+label{
+    vertical-align: top;
+    padding: 2em;
+}
+
+textarea{
+    width: 200px;
+    height: 200px;
+}

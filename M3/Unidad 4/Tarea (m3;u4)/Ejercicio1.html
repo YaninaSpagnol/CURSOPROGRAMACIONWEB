@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="ejercicio1.css">
+</head>
+
+<body>
+    <h1>Ejercicio 1</h1>
+
+    <div class="item 1" id="red">click aqui</div>
+    <div class="item 2" id="yellow">click aqui</div>
+    <div class="item 3" id="blue">click aqui</div>
+
+    <p><button class="boton" id="reset">Reset</button></p>
+
+    <script>
+        document.getElementById("red").addEventListener("click", () => { changeColor("red") })
+        document.getElementById("yellow").addEventListener("click", () => { changeColor("yellow") })
+        document.getElementById("blue").addEventListener("click", () => { changeColor("blue") })
+        document.getElementById("reset").addEventListener("click", () => { changeColor("whitesmoke") })
+
+        function changeColor(color) {
+            document.body.style.backgroundColor = color;
+        }
+
+    </script>
+</body>
+
+</html>
