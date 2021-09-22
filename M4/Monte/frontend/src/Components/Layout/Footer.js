@@ -1,4 +1,4 @@
-import React from 'react';
+import '../../Styles/Components/Layout/Footer.css';
 
 const Footer = ( props) => {
     return(

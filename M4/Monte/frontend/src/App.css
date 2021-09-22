@@ -6,6 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
+body{
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  line-height: 15px;
+  background-color: #E5E5E5;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

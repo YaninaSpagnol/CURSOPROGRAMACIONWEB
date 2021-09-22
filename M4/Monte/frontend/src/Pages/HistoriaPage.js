@@ -1,4 +1,4 @@
-import React from "react";
+import '../Styles/Components/Pages/HistoriaPage.css';
 
 const HistoriaPage = (props) => {
     return (
@@ -144,7 +144,7 @@ const HistoriaPage = (props) => {
                     Son tiempos éstos en que Monte es el centro de una intensa actividad, especialmente política, a través
                     de la figura de Juan Manuel de Rosas.
                 </p>
-                <div class="colorados right">
+                <div class="colorados left">
                     <img src="images/hist/colorados2.jpg" width="400" alt="colorados del monte"/>
                 </div>
                 <p>
