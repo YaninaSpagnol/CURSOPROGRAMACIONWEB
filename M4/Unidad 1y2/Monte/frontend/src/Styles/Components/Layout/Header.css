@@ -1,0 +1,13 @@
+header{
+    background-color: #912E2E;
+    padding: 0.5em;
+}
+
+header h1{
+    font-size: 3em;
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    bottom: 0.5em;
+    color: white;
+}
