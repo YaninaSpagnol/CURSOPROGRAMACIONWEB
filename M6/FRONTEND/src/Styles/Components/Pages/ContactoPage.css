@@ -1,0 +1,62 @@
+/*inicio contacto*/
+.columna{
+    width: 48%;
+    box-sizing: border-box;
+    padding: 0.5em;
+}
+
+.columna.left{
+    border-right: 1px solid #ABACAD;
+}
+
+.columna.right p{
+    font-size: 18px;
+    margin-left: 1em;
+    color:#912E2E;
+    font-weight: bold;
+    
+}
+
+.columna ul li{
+    font-size: 1em;
+}
+
+.formulario label{
+    vertical-align: top;
+    width: 20%;
+    display: inline-block;
+    padding: 0.4em;
+}
+.formulario input,
+.formulario textarea{
+    background-color: #E5E5E5;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 0.4em 0.6em;
+    font-size: 0.8em;
+    width: 70%;
+    margin-left: 1em;
+}
+
+.formulario input[type="submit"]{
+    background-color: #912E2E;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    color: white;
+    font-size: 1em;
+    width: auto;
+    cursor: pointer;
+}
+
+.formulario textarea{
+    height: 10em;
+    resize: none;
+}
+
+.formulario .acciones{
+    text-align: center;
+}
+
+hr{
+    margin-top: 2em;
+}
+/*fin contacto*/

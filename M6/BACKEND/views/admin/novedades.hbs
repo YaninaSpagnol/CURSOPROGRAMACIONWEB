@@ -2,7 +2,8 @@
     {{!-- fila 1--}}
     <div class="row">
         <div class="col">
-            <p class="text-end">Hola {{usuario}} ! <a href="/admin/login/logout" class="btn btn-sm btn-danger">Cerrar sesión<i class="fas fa-sign-out-alt"></i></a></p>
+            <p class="text-end">Hola {{usuario}} ! <a href="/admin/login/logout" class="btn btn-sm btn-danger"> Cerrar sesión 
+            <i class="fas fa-sign-out-alt"></i></a></p>
         </div>
     </div>
     {{!-- fin fila 1 --}}
@@ -13,7 +14,8 @@
             <h3>Listado de Novedades</h3>
         </div>
         <div class="col-5 text-end" >
-            <a class="btn btn-success" href="/admin/novedades/agregar" > <i class="fas fa-plus"></i>Nuevo</a>
+            <a href="/admin/novedades/agregar" class="btn btn-success" > <i class="fas fa-plus-square">
+            </i> Nuevo </a>
         </div>
     </div>
 
@@ -36,8 +38,8 @@
                         <th scope="row">{{id}}</th>
                         <td>{{titulo}}</td>
                         <td class="text-end">
-                            <a href="" class="btn btn-secondary"> <i class="fas fa-pencil-alt"></i></a>
-                            <a href="" class="btn btn-secondary"></a> <i class="fas fa-trash-alt"></i></a>
+                            <a href="/admin/novedades/modificar/{{id}}" class="btn btn-secondary"> <i class="fas fa-pencil-alt"></i></a>
+                            <a href="/admin/novedades/eliminar/{{id}}" class="btn btn-secondary"> <i class="fas fa-trash-alt"></i></a>
                         </td>
                     </tr>
                     {{/each}}

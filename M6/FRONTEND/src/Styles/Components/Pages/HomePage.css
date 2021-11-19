@@ -1,0 +1,22 @@
+/*inicio home*/
+h2{
+    font-weight:bolder;
+    color: #912E2E;
+    text-decoration: underline;
+    margin: 2em;
+    font-size: 2em;
+}
+
+p{
+    font-size: 18px;
+    width: 90%;
+    padding: 1.5px ;
+    display:block;
+    font-family: italic;
+    margin-left: 1em;
+}
+
+.homeimg{
+    margin:2em;
+}
+
